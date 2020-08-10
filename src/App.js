@@ -1,24 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
+import Preloader from './components/preloader'
+import Navbar from './components/navbar'
+import Slider from './components/slider'
+import About from './components/about'
+import Experience from './components/experience'
+import Projects from './components/projects'
+import Contact from './components/contact'
+import Footer from './components/footer'
+import Back from './components/back'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*====== PRELOADER PART START ======*/}
+      <Preloader></Preloader>
+      {/*====== PRELOADER PART ENDS ======*/}
+      {/*====== NAVBAR TWO PART START ======*/}
+      <Navbar></Navbar>
+      {/*====== NAVBAR TWO PART ENDS ======*/}
+      {/*====== SLIDER PART START ======*/}
+      <Slider></Slider>
+      {/*====== SLIDER PART ENDS ======*/}
+      {/* ====== ABOUT PART START ======*/}
+      <About></About>
+      {/*====== ABOUT PART ENDS ======*/}
+      {/*====== EXPERIENCE PART START ======*/}
+      <Experience></Experience>
+      {/*====== EXPERIENCE PART ENDS ======*/}
+      {/*====== PROJECTS PART START ======*/}
+      <Projects></Projects>
+      {/*====== PROJECTS PART ENDS ======*/}
+      {/*====== CONTACT PART START ======*/}
+      <Contact></Contact>
+      {/*====== CONTACT PART ENDS ======*/}
+      {/*====== FOOTER PART START ======*/}
+      <Footer></Footer>
+      {/*====== FOOTER PART ENDS ======*/}
+      {/*====== BACK TO TOP PART START ======*/}
+      <Back></Back>
+      {/*====== BACK TO TOP PART ENDS ====== */}
     </div>
   );
 }
