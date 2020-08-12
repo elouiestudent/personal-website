@@ -1,0 +1,68 @@
+[
+    {
+        "subtitle": "Experience",
+        "title": "Where I've Worked",
+        "image": "assets/images/experience/experience.png",
+        "jobs": [
+            {
+                "title": [
+                    "Research Intern @Mobile Commerce Lab"
+                ],
+                "date": "May 2020 - Present",
+                "text": [
+                    "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
+                    "Engineering the notification functionality infrastructure using background location tracking and geofences",
+                    "Collaborating with Aerin Zhang to modify the functionality for an in-situ study"
+                ],
+                "bold": [
+                    "notifications",
+                    "Flutter",
+                    "background location tracking",
+                    "geofences"
+                ],
+                "links": {
+                    "@Mobile Commerce Lab": "https://mcom.cs.cmu.edu/",
+                    "Prof. Norman Sadeh": "https://www.normsadeh.org/",
+                    "IoT Assistant App": "https://www.privacyassistant.org/iot/",
+                    "Aerin Zhang": "https://scholar.google.com/citations?user=e2vSiWIAAAAJ&hl=en"
+                }
+            },
+            {
+                "title": [
+                    "Research Intern @Human-Computer Interaction Institute"
+                ],
+                "date": "Jan - May 2020",
+                "text": [
+                    "Worked with Tianshi Li to analyze the r/AndroidDev subreddit to understand app developer motivations, actual practices, and gaps in knowledge and tool support with respect to privacy",
+                    "Collected online discussion data through building machine learning models to identify privacy/security-related discussion and conducting qualitative/quantitative analysis on the data"
+                ],
+                "bold": [
+                    "machine learning models",
+                    "privacy/security-related",
+                    "qualitative/quantitative analysis"
+                ],
+                "links": {
+                    "@Human-Computer Interaction Institute": "https://www.hcii.cmu.edu/",
+                    "Tianshi Li": "https://tianshili.me/"
+                }
+            },
+            {
+                "title": [
+                    "Extern @Cisco"
+                ],
+                "date": "Jun - Jul 2018",
+                "text": [
+                    "Collaborated in team of 3 to create solution for transportation problems through proposal to reroute bus routes depending on machine learning algorithms in order to ease traffic congestion and presented it to a senior VP in Cisco",
+                    "Introduced concept of using a rewards system in a mobile app that gives redeemable points when user takes public transportation or back roads"
+                ],
+                "bold": [
+                    "machine learning algorithms",
+                    "rewards system"
+                ],
+                "links": {
+                    "@Cisco": "https://www.cisco.com/"
+                }
+            }
+        ]
+    }
+]

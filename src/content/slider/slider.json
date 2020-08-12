@@ -1,0 +1,16 @@
+[
+    {
+        "subtitle": "Hi, my name is",
+        "title": "Elizabeth Louie",
+        "text": [
+            "I'm a software engineer with a passion for machine learning and specializing in building mobile and web applications."
+        ],
+        "social": {
+            "email": "louie.lizzie@gmail.com",
+            "github": "https://github.com/elouiestudent",
+            "facebook": "https://www.facebook.com/profile.php?id=100007158137043",
+            "linkedin": "https://www.linkedin.com/in/elizabeth-louie-a4599719a/",
+            "instagram": "https://www.instagram.com/_e_louie_/?hl=en"
+        }
+    }
+]
