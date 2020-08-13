@@ -2,25 +2,52 @@
     {
         "title": "Projects",
         "text": [
-            "Check out the things I built here!"
+            "Check out the things I built here! Hover over the images for some cool links."
         ],
+        "tags": ["mobile", "web", "analysis", "research"],
         "projects": [
             {
                 "title": [
                     "IoT Assistant App"
                 ],
-                "text": [
-                    "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
-                    "Engineering the notification functionality infrastructure using background location tracking and geofences",
-                    "Collaborating with Aerin Zhang to modify the functionality for an in-situ study"
-                ],
+                "text": "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
                 "tech": [
                     "Flutter"
                 ],
-                "images": [],
+                "images": [
+                    "assets/images/projects/iota/main.png",
+                    "assets/images/projects/iota/notificationsettings.png",
+                    "assets/images/projects/iota/notification.png"
+                ],
                 "links": {
-                    "IoT Assistant App": "https://www.privacyassistant.org/iot/"
-                }
+                    "IoT Assistant App": "https://www.privacyassistant.org/iot/",
+                    "presentation": "https://docs.google.com/presentation/d/1jaxBVpeJnArf5sh_mf-qvXHtGsKbt4jNURvt04mGCuc/edit?usp=sharing",
+                    "link": "https://www.iotprivacy.io/discovering-iot"
+                },
+                "tags": [
+                    "mobile",
+                    "research"
+                ]
+            },
+            {
+                "title": [
+                    "IoT Assistant App"
+                ],
+                "text": "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
+                "tech": [
+                    "Flutter"
+                ],
+                "images": [
+                    "assets/images/projects/1.png"
+                ],
+                "links": {
+                    "IoT Assistant App": "https://www.privacyassistant.org/iot/",
+                    "presentation": "https://docs.google.com/presentation/d/1jaxBVpeJnArf5sh_mf-qvXHtGsKbt4jNURvt04mGCuc/edit?usp=sharing"
+                },
+                "tags": [
+                    "mobile",
+                    "research"
+                ]
             }
         ]
     }

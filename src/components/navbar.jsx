@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                                 </button>
                                 <div className="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                                     <ul className="navbar-nav m-auto">
-                                        <li className="nav-item active"><a className="page-scroll" href="#home">home</a></li>
+                                        <li className="nav-item active"><a className="page-scroll" href="#home">Home</a></li>
                                         <li className="nav-item"><a className="page-scroll" href="#about">About</a></li>
                                         <li className="nav-item"><a className="page-scroll" href="#experience">Experience</a></li>
                                         <li className="nav-item"><a className="page-scroll" href="#projects">Projects</a></li>

@@ -39,7 +39,7 @@ export default class Experience extends Component {
                                                 <div className="card-header" id={heading}>
                                                     <a className="overlay" href="#" data-toggle="collapse" data-target={'#' + collapse} aria-expanded="false" aria-controls={collapse}><div className="inner"><span dangerouslySetInnerHTML={{ __html: toHtml(job.title, job, 1) }} /></div></a>
                                                 </div>
-                                                <div id={collapse} className="collapse" aria-labelledby={heading} data-parent="#accordionList">
+                                                <div id={collapse} className={(index > 0) ? "collapse" : "collapse show"} aria-labelledby={heading} data-parent="#accordionList">
                                                     <div className="card-body">
                                                         <div className="text">{job.date}<b></b><p dangerouslySetInnerHTML={{ __html: '<ul>' + toHtml(job.text.map(phrase => '<li>' + phrase + '</li>'), job, 0) + '</ul>' }} /></div>
                                                     </div>
