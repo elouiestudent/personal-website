@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Resume from '../content/navbar/resume.pdf'
 
 export default class Navbar extends Component {
     constructor(props) {
@@ -31,7 +32,7 @@ export default class Navbar extends Component {
                                 </div>
                                 <div className="navbar-btn d-none d-sm-inline-block">
                                     <ul>
-                                        <li><a className="solid" href="#">Resume</a></li>
+                                        <li><a className="solid" href={Resume} target="_blank">Resume</a></li>
                                     </ul>
                                 </div>
                             </nav> {/* navbar */}

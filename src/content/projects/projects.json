@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Projects",
+        "text": [
+            "Check out the things I built here!"
+        ],
+        "projects": [
+            {
+                "title": [
+                    "IoT Assistant App"
+                ],
+                "text": [
+                    "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
+                    "Engineering the notification functionality infrastructure using background location tracking and geofences",
+                    "Collaborating with Aerin Zhang to modify the functionality for an in-situ study"
+                ],
+                "tech": [
+                    "Flutter"
+                ],
+                "images": [],
+                "links": {
+                    "IoT Assistant App": "https://www.privacyassistant.org/iot/"
+                }
+            }
+        ]
+    }
+]

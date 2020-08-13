@@ -1,8 +1,15 @@
 import React, { Component } from 'react'
+import toHtml from './parser'
+import data from '../content/projects/projects.json'
 
 export default class Projects extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            title: data[0].title,
+            text: data[0].text,
+            projects: data[0].projects
+        };
     }
 
     render() {
@@ -12,8 +19,8 @@ export default class Projects extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="section-title text-center pb-20">
-                                <h3 className="title">Our projects</h3>
-                                <p className="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                <h4 className="title">{this.state.title}</h4>
+                                <p className="text">{this.state.text}</p>
                             </div> {/* row */}
                         </div>
                     </div> {/* row */}

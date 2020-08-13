@@ -12,7 +12,7 @@ export default class Contact extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-6 col-md-10">
                             <div className="section-title text-center pb-30">
-                                <h3 className="title">Contact</h3>
+                                <h4 className="title">Contact</h4>
                                 <p className="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
                             </div> {/* section title */}
                         </div>
