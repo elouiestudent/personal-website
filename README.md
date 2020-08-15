@@ -1,6 +1,6 @@
-This project is the first iteration of my personal website.
+## my-personal-website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the first iteration of my personal website and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
