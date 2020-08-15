@@ -4113,6 +4113,20 @@ p {
   background-color: #fff;
   border-radius: 50px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.single-about img {
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+}
+
+.single-about p {
+  padding-bottom: 30px;
 }
 
 .single-about .about-text .text {

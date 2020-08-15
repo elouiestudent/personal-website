@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Resume from '../content/navbar/resume.pdf'
+import Resume from '../content/navbar/elizabethlouieresume.pdf'
 
 export default class Navbar extends Component {
     constructor(props) {
@@ -13,9 +13,6 @@ export default class Navbar extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <nav className="navbar navbar-expand-lg">
-                                <a className="navbar-brand" href="#">
-                                    <img src="assets/images/logo.svg" alt="Logo" />
-                                </a>
                                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="toggler-icon" />
                                     <span className="toggler-icon" />

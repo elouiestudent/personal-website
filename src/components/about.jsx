@@ -37,6 +37,7 @@ export default class About extends Component {
                                 <div className="about-content-wrapper about-active">
                                     <div className="single-about">
                                         <img src={this.state.image} alt="My Photo"></img>
+                                        <p className="text">Drawn by me!</p>
                                     </div> {/* single about */}
                                 </div> {/* about content wrapper */}
                             </div> {/* about right content */}
