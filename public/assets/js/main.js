@@ -116,7 +116,8 @@ $(function () {
     $('.container').imagesLoaded(function () {
         var $grid = $('.grid').isotope({
             // options
-            transitionDuration: '1s'
+            transitionDuration: '1s',
+            layoutMode: 'fitRows'
         });
 
         // filter items on button click

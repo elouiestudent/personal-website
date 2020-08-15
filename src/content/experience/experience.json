@@ -34,7 +34,8 @@
                 "date": "Jan - May 2020",
                 "text": [
                     "Worked with Tianshi Li to analyze the r/AndroidDev subreddit to understand app developer motivations, actual practices, and gaps in knowledge and tool support with respect to privacy",
-                    "Collected online discussion data through building machine learning models to identify privacy/security-related discussion and conducting qualitative/quantitative analysis on the data"
+                    "Collected online discussion data through building machine learning models to identify privacy/security-related discussion and conducting qualitative/quantitative analysis on the data",
+                    "Work featured in paper \"How Developers Talk about Personal Data and What It Means for User Privacy: A Case Study of a Developer Forum on Reddit\" that has been accepted to CSCW 2020"
                 ],
                 "bold": [
                     "machine learning models",

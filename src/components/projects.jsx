@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import toHtml from './parser'
 import toLinkIcon from './linkicons'
 import data from '../content/projects/projects.json'
 
@@ -51,19 +52,21 @@ export default class Projects extends Component {
                                                         })}
                                                     </div>
                                                 </div>
-                                                {Object.keys(project.links).filter(key => key !== project.title.toString()).map(key =>
+                                                {Object.keys(project.icons).filter(key => key !== project.title.toString()).map(key =>
                                                     <div className="projects-icon">
-                                                        <a href={project.links[key]} target="_blank">
+                                                        <a href={project.icons[key]} target="_blank">
                                                             <i className={toLinkIcon(key)} />
                                                         </a>
-                                                    </div>)}
+                                                    </div>
+                                                )}
                                             </div>
                                         </div>
                                     </div>
                                     <div className="projects-text">
-                                        <h4 className="projects-title"><a href={project.links[project.title]} target="_blank">{project.title}</a></h4>
-                                        <p className="text">{project.text}</p>
-                                        <p className="text">Technologies: <b>{project.tech.join(" ")}</b></p>
+                                        {/* <h4 className="projects-title">{(project.icons[project.title] === undefined) ? project.title : <a href={project.icons[project.title]} target="_blank">{project.title}</a>}</h4> */}
+                                        <h4 className="projects-title">{project.title}</h4>
+                                        <p className="text"><span dangerouslySetInnerHTML={{ __html: toHtml(project.text, project, 1) }} /></p>
+                                        <p className="text">Technologies: <b>{project.tech.join(", ")}</b></p>
                                     </div>
                                 </div>
                             </div>);

@@ -2,15 +2,23 @@
     {
         "title": "Projects",
         "text": [
-            "Check out the things I built here! Hover over the images for some cool links."
+            "Check out the things I built here! Hover over the images for some cool icons."
         ],
-        "tags": ["mobile", "web", "analysis", "research"],
+        "tags": [
+            "mobile",
+            "web",
+            "analysis",
+            "research",
+            "other"
+        ],
         "projects": [
             {
                 "title": [
                     "IoT Assistant App"
                 ],
-                "text": "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
+                "text": [
+                    "The IoT Assistant App (IoTA) is a cross-platform mobile application that displays nearby IoT devices and provides configurable data collection settings when available. Adding notifications to the IoTA allows for greater awareness of nearby data collection because users can be informed of devices even while the app is closed."
+                ],
                 "tech": [
                     "Flutter"
                 ],
@@ -19,8 +27,7 @@
                     "assets/images/projects/iota/notificationsettings.png",
                     "assets/images/projects/iota/notification.png"
                 ],
-                "links": {
-                    "IoT Assistant App": "https://www.privacyassistant.org/iot/",
+                "icons": {
                     "presentation": "https://docs.google.com/presentation/d/1jaxBVpeJnArf5sh_mf-qvXHtGsKbt4jNURvt04mGCuc/edit?usp=sharing",
                     "link": "https://www.iotprivacy.io/discovering-iot"
                 },
@@ -31,22 +38,249 @@
             },
             {
                 "title": [
-                    "IoT Assistant App"
+                    "Snorkel Labeling Model"
                 ],
-                "text": "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App with Flutter",
+                "text": [
+                    "This model filters out Reddit posts that are irrelevent to user privacy and security in Android development."
+                ],
                 "tech": [
-                    "Flutter"
+                    "Python",
+                    "Snorkel API",
+                    "Jupyter Notebook"
                 ],
                 "images": [
-                    "assets/images/projects/1.png"
+                    "assets/images/projects/snorkel/coverage.PNG"
                 ],
-                "links": {
-                    "IoT Assistant App": "https://www.privacyassistant.org/iot/",
-                    "presentation": "https://docs.google.com/presentation/d/1jaxBVpeJnArf5sh_mf-qvXHtGsKbt4jNURvt04mGCuc/edit?usp=sharing"
+                "icons": {
+                    "github": "https://github.com/elouiestudent/android-privacy-labeling-model"
+                },
+                "tags": [
+                    "analysis",
+                    "research"
+                ]
+            },
+            {
+                "title": [
+                    "Senior Research Project"
+                ],
+                "text": [
+                    "This project is an Android application for users with motor disabilities that uses the front camera for reading head movements to control a cursor on the screen and deciphering eyewinks to perform touch and swipe actions."
+                ],
+                "tech": [
+                    "Java",
+                    "Android SDK"
+                ],
+                "images": [
+                    "assets/images/projects/srp/main.PNG",
+                    "assets/images/projects/srp/home.PNG"
+                ],
+                "icons": {
+                    "presentation": "https://docs.google.com/presentation/d/1ozQXWNab73Z5SFyUTj-q5G75rhKY5PHmrC5bmBJwl38/edit?usp=sharing"
                 },
                 "tags": [
                     "mobile",
                     "research"
+                ]
+            },
+            {
+                "title": [
+                    "MovementTracker"
+                ],
+                "text": [
+                    "MovementTracker is a website that allows the user to browse movements and public sentiment over different topics and keywords by location through natural language processing of tweets pulled with the Twitter API."
+                ],
+                "tech": [
+                    "Javascript",
+                    "HTML",
+                    "CSS",
+                    "Twitter API"
+                ],
+                "images": [
+                    "assets/images/projects/movementtracker/twitter.PNG"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/HackTJ19",
+                    "link": "https://devpost.com/software/temp-zprgam"
+                },
+                "tags": [
+                    "web"
+                ]
+            },
+            {
+                "title": [
+                    "The Ultimate Just a Bill Experience"
+                ],
+                "text": [
+                    "After the user finishes a VR application that takes them through the process of how a bill becomes a law, they move to this website to take a quiz and view histograms with distributions of answers are shown. An additional page displays predictions generated by machine learning models of the number of bills Congress will pass. This project won Best Art/Gaming Hack out of ~200 teams."
+                ],
+                "bold": [
+                    "Best Art/Gaming Hack"
+                ],
+                "tech": [
+                    "Javascript",
+                    "HTML",
+                    "CSS"
+                ],
+                "images": [
+                    "assets/images/projects/justabill/quiz.png",
+                    "assets/images/projects/justabill/results.png",
+                    "assets/images/projects/justabill/prediction.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/HooHacksWebsite",
+                    "link": "https://devpost.com/software/just-a-bill"
+                },
+                "tags": [
+                    "web"
+                ]
+            },
+            {
+                "title": [
+                    "EyeAlert"
+                ],
+                "text": [
+                    "EyeAlert is an iOS application that allows the user to call different emergency services either through tapping buttons or through eye winks and Siri for those who have mobility impairments. This project won second in Best Use of SafeTrek API out of ~200 teams."
+                ],
+                "bold": [
+                    "Best Use of SafeTrek API"
+                ],
+                "tech": [
+                    "Swift",
+                    "iOS SDK",
+                    "Safetrek API"
+                ],
+                "images": [
+                    "assets/images/projects/eyealert/eyealert.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/ApolloZhu/UVAHP",
+                    "link": "https://devpost.com/software/eyealert"
+                },
+                "tags": [
+                    "mobile"
+                ]
+            },
+            {
+                "title": [
+                    "Tic-Tac-Toe Multiplayer"
+                ],
+                "text": [
+                    "Tic-Tac-Toe Multiplayer is a website created for users with TJHSST logins to create private rooms to play tic-tac-toe with each other."
+                ],
+                "tech": [
+                    "Javascript",
+                    "HTML",
+                    "CSS"
+                ],
+                "images": [
+                    "assets/images/projects/tictactoeweb/tictactoe.png"
+                ],
+                "icons": {
+                    "video": "https://www.youtube.com/watch?v=bNFD-rp7aeY&feature=youtu.be"
+                },
+                "tags": [
+                    "web"
+                ]
+            },
+            {
+                "title": [
+                    "Railroad Pathing"
+                ],
+                "text": [
+                    "Railroad Pathing is an implementation of the A* algorithm that finds the shortest route by train between two cities and animates the entire searching process."
+                ],
+                "tech": [
+                    "Python"
+                ],
+                "images": [
+                    "assets/images/projects/railroad/railroad.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/Railroad"
+                },
+                "tags": [
+                    "other"
+                ]
+            },
+            {
+                "title": [
+                    "Othello Player"
+                ],
+                "text": [
+                    "Othello Player is a program that uses minimax and alpha-beta pruning to pick the best Othello move."
+                ],
+                "tech": [
+                    "Python"
+                ],
+                "images": [
+                    "assets/images/projects/othello/othello.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/Othello"
+                },
+                "tags": [
+                    "other"
+                ]
+            },
+            {
+                "title": [
+                    "Circle Slider Notes"
+                ],
+                "text": [
+                    "Circle Slider Notes is an Android application that allows the user to play a piano note with a button and change notes using a circular slider."
+                ],
+                "tech": [
+                    "Java",
+                    "Android SDK"
+                ],
+                "images": [
+                    "assets/images/projects/circleslidernotes/note.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/CircleSliderNotes"
+                },
+                "tags": [
+                    "mobile"
+                ]
+            },
+            {
+                "title": [
+                    "Sudoku Solver"
+                ],
+                "text": [
+                    "Sudoku Solver is a program that quickly solves Sudoku puzzles with an optimized brute force algorithm."
+                ],
+                "tech": [
+                    "Python"
+                ],
+                "images": [
+                    "assets/images/projects/sudoku/sudoku.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/Sudoku"
+                },
+                "tags": [
+                    "other"
+                ]
+            },
+            {
+                "title": [
+                    "15-Puzzle Solver"
+                ],
+                "text": [
+                    "15-Puzzle Solver is a program that quickly solves 15-puzzles using the A* algorithm and Manhattan distances."
+                ],
+                "tech": [
+                    "Python"
+                ],
+                "images": [
+                    "assets/images/projects/fifteenpuzzle/puzzle.png"
+                ],
+                "icons": {
+                    "github": "https://github.com/elouiestudent/FifteenPuzzle"
+                },
+                "tags": [
+                    "other"
                 ]
             }
         ]
