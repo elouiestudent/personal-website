@@ -10,7 +10,7 @@ export default class About extends Component {
             title: data[0].title,
             text: toHtml(data[0].text, data[0], 2),
             image: data[0].image,
-            jobs: {}
+            imagetext: data[0].imagetext
         };
     }
 
@@ -37,7 +37,7 @@ export default class About extends Component {
                                 <div className="about-content-wrapper about-active">
                                     <div className="single-about">
                                         <img src={this.state.image} alt="My Photo"></img>
-                                        <p className="text">Drawn by me!</p>
+                                        <p className="text">{this.state.imagetext}</p>
                                     </div> {/* single about */}
                                 </div> {/* about content wrapper */}
                             </div> {/* about right content */}
