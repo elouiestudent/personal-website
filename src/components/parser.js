@@ -11,7 +11,7 @@ export default function toHTML(text, parameters, breaknum) {
             }
             if (parameters.links !== undefined) {
                 for (const [key, value] of Object.entries(parameters.links)) {
-                    str = str.replace(key, '<a href="' + value + '" target="_blank" rel="noopener noreferrer">' + key + '</a>');
+                    str = str.replace(key, '<a href="' + value + '" target="_blank" rel="noopener noreferrer" class="place-link">' + key + '</a>');
                 }
             }
             if (i > 0)

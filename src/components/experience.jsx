@@ -37,7 +37,7 @@ export default class Experience extends Component {
                                             var collapse = "collapse" + index;
                                             return <div className="card">
                                                 <div className="card-header" id={heading}>
-                                                    <a className="overlay" href="#" data-toggle="collapse" data-target={'#' + collapse} aria-expanded="false" aria-controls={collapse}><div className="inner"><span dangerouslySetInnerHTML={{ __html: toHtml(job.title, job, 1) }} /></div></a>
+                                                    <div className="overlay" data-toggle="collapse" data-target={'#' + collapse} aria-expanded="false" aria-controls={collapse}><div className="inner"><span dangerouslySetInnerHTML={{ __html: toHtml(job.title, job, 1) }} /></div></div>
                                                 </div>
                                                 <div id={collapse} className={(index > 0) ? "collapse" : "collapse show"} aria-labelledby={heading} data-parent="#accordionList">
                                                     <div className="card-body">
@@ -53,7 +53,7 @@ export default class Experience extends Component {
                         <div className="col-lg-6">
                             <div className="experience-image mt-0">
                                 <img src={this.state.image} alt="experience" />
-                            </div> 
+                            </div>
                         </div>
                     </div> {/* row */}
                 </div> {/* container */}
