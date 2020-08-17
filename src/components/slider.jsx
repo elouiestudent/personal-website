@@ -20,10 +20,10 @@ export default class Slider extends Component {
                             <div className="container">
                                 <div className="row">
                                     <ul className="header_social d-none d-lg-block">
-                                        <li><a href={data[0].social.github} target="_blank"><i className="lni lni-github-original"></i></a></li>
-                                        <li><a href={data[0].social.linkedin} target="_blank"><i className="lni lni-linkedin-original"></i></a></li>
-                                        <li><a href={data[0].social.facebook} target="_blank"><i className="lni lni-facebook-filled"></i></a></li>
-                                        <li><a href={data[0].social.instagram} target="_blank"><i className="lni lni-instagram-original"></i></a></li>
+                                        <li><a href={data[0].social.github} target="_blank" rel="noopener noreferrer"><i className="lni lni-github-original"></i></a></li>
+                                        <li><a href={data[0].social.linkedin} target="_blank" rel="noopener noreferrer"><i className="lni lni-linkedin-original"></i></a></li>
+                                        <li><a href={data[0].social.facebook} target="_blank" rel="noopener noreferrer"><i className="lni lni-facebook-filled"></i></a></li>
+                                        <li><a href={data[0].social.instagram} target="_blank" rel="noopener noreferrer"><i className="lni lni-instagram-original"></i></a></li>
                                     </ul>
                                     <div className="col-lg-6">
                                         <div className="slider-content">
@@ -31,7 +31,7 @@ export default class Slider extends Component {
                                             <h1 className="title">{this.state.title}</h1>
                                             <p className="text">{this.state.text}</p>
                                             <ul className="slider-btn rounded-buttons">
-                                                <li><a className="main-btn rounded-one" href={"mailto:" + data[0].social.email} target="_blank">GET IN TOUCH</a></li>
+                                                <li><a className="main-btn rounded-one" href={"mailto:" + data[0].social.email} target="_blank" rel="noopener noreferrer">GET IN TOUCH</a></li>
                                             </ul>
                                         </div>
                                     </div>

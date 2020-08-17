@@ -29,7 +29,7 @@ export default class Navbar extends Component {
                                 </div>
                                 <div className="navbar-btn d-none d-sm-inline-block">
                                     <ul>
-                                        <li><a className="solid" href={Resume} target="_blank">Resume</a></li>
+                                        <li><a className="solid" href={Resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                                     </ul>
                                 </div>
                             </nav> {/* navbar */}

@@ -25,10 +25,10 @@ export default class Contact extends Component {
                                 <li><a className="main-btn rounded-one" href={"mailto:" + data[0].social.email} target="_blank">GET IN TOUCH</a></li>
                             </ul>
                             <ul className="social text-center mt-30">
-                                <li><a href={data[0].social.github} target="_blank"><i className="lni lni-github-original"></i></a></li>
-                                <li><a href={data[0].social.linkedin} target="_blank"><i className="lni lni-linkedin-original"></i></a></li>
-                                <li><a href={data[0].social.facebook} target="_blank"><i className="lni lni-facebook-filled"></i></a></li>
-                                <li><a href={data[0].social.instagram} target="_blank"><i className="lni lni-instagram-original"></i></a></li>
+                                <li><a href={data[0].social.github} target="_blank"  rel="noopener noreferrer"><i className="lni lni-github-original"></i></a></li>
+                                <li><a href={data[0].social.linkedin} target="_blank" rel="noopener noreferrer"><i className="lni lni-linkedin-original"></i></a></li>
+                                <li><a href={data[0].social.facebook} target="_blank" rel="noopener noreferrer"><i className="lni lni-facebook-filled"></i></a></li>
+                                <li><a href={data[0].social.instagram} target="_blank" rel="noopener noreferrer"><i className="lni lni-instagram-original"></i></a></li>
                             </ul> {/* social */}
                         </div>
                     </div> {/* row */}

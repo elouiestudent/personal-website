@@ -54,7 +54,7 @@ export default class Projects extends Component {
                                                 </div>
                                                 {Object.keys(project.icons).filter(key => key !== project.title.toString()).map(key =>
                                                     <div className="projects-icon">
-                                                        <a href={project.icons[key]} target="_blank">
+                                                        <a href={project.icons[key]} target="_blank" rel="noopener noreferrer">
                                                             <i className={toLinkIcon(key)} />
                                                         </a>
                                                     </div>
@@ -63,7 +63,7 @@ export default class Projects extends Component {
                                         </div>
                                     </div>
                                     <div className="projects-text">
-                                        {/* <h4 className="projects-title">{(project.icons[project.title] === undefined) ? project.title : <a href={project.icons[project.title]} target="_blank">{project.title}</a>}</h4> */}
+                                        {/* <h4 className="projects-title">{(project.icons[project.title] === undefined) ? project.title : <a href={project.icons[project.title]} target="_blank" rel="noopener noreferrer">{project.title}</a>}</h4> */}
                                         <h4 className="projects-title">{project.title}</h4>
                                         <p className="text"><span dangerouslySetInnerHTML={{ __html: toHtml(project.text, project, 1) }} /></p>
                                         <p className="text">Technologies: <b>{project.tech.join(", ")}</b></p>
