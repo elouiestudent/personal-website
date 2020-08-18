@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Resume from '../content/navbar/elizabethlouieresume.pdf'
+import Resume from '../content/navbar/elouieresume.pdf'
 
 export default class Navbar extends Component {
     constructor(props) {
