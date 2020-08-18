@@ -49,7 +49,7 @@
                     "Jupyter Notebook"
                 ],
                 "images": [
-                    "assets/images/projects/snorkel/coverage.PNG"
+                    "assets/images/projects/snorkel/coverage.png"
                 ],
                 "icons": {
                     "github": "https://github.com/elouiestudent/android-privacy-labeling-model"
@@ -71,8 +71,8 @@
                     "Android SDK"
                 ],
                 "images": [
-                    "assets/images/projects/srp/main.PNG",
-                    "assets/images/projects/srp/home.PNG"
+                    "assets/images/projects/srp/main.png",
+                    "assets/images/projects/srp/home.png"
                 ],
                 "icons": {
                     "presentation": "https://docs.google.com/presentation/d/1ozQXWNab73Z5SFyUTj-q5G75rhKY5PHmrC5bmBJwl38/edit?usp=sharing"
@@ -96,7 +96,7 @@
                     "Twitter API"
                 ],
                 "images": [
-                    "assets/images/projects/movementtracker/twitter.PNG"
+                    "assets/images/projects/movementtracker/twitter.png"
                 ],
                 "icons": {
                     "github": "https://github.com/elouiestudent/HackTJ19",
