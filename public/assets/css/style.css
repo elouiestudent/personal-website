@@ -3949,6 +3949,7 @@ p {
 .experience-area .experience-accordion .accordion .card .card-header {
   padding: 0;
   border: 0;
+  cursor: pointer;
   background: none;
   margin-top: 20px;
 }
