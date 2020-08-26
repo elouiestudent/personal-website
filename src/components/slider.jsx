@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import data from '../content/slider/slider.json'
+import Resume from '../content/navbar/elouieresume.pdf'
 
 export default class Slider extends Component {
     constructor(props) {
@@ -32,6 +33,7 @@ export default class Slider extends Component {
                                             <p className="text">{this.state.text}</p>
                                             <ul className="slider-btn rounded-buttons">
                                                 <li><a className="main-btn rounded-one" href={"mailto:" + data[0].social.email} target="_blank" rel="noopener noreferrer">GET IN TOUCH</a></li>
+                                                <li><a className="main-btn rounded-two" href={Resume} target="_blank" rel="noopener noreferrer">RESUME</a></li>
                                             </ul>
                                         </div>
                                     </div>
