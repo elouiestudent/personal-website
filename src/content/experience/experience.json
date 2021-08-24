@@ -11,8 +11,7 @@
                 "date": "May 2020 - Present",
                 "text": [
                     "Working with Prof. Norman Sadeh to add notifications to the cross-platform IoT Assistant App (available in App Store and Google Play Store) with Flutter",
-                    "Engineering the notification functionality infrastructure using background location tracking and geofences",
-                    "Collaborating with Aerin Zhang to modify the functionality for an in-situ study"
+                    "Engineering the notification functionality infrastructure using background location tracking and geofences"
                 ],
                 "bold": [
                     "notifications",
@@ -23,8 +22,25 @@
                 "links": {
                     "@Mobile Commerce Lab": "https://mcom.cs.cmu.edu/",
                     "Prof. Norman Sadeh": "https://www.normsadeh.org/",
-                    "IoT Assistant App": "https://www.privacyassistant.org/iot/",
-                    "Aerin Zhang": "https://scholar.google.com/citations?user=e2vSiWIAAAAJ&hl=en"
+                    "IoT Assistant App": "https://www.privacyassistant.org/iot/"
+                }
+            },
+            {
+                "title": [
+                    "Software Development Engineer Intern @Amazon"
+                ],
+                "date": "May - Aug 2021",
+                "text": [
+                    "Built the curated colors widget that displays curated paint palettes to customers on Amazon Paint Finder",
+                    "Designed and implemented an algorithm to extract trending color palettes from interior room images using Amazon SageMaker and AWS Lambda to be used in the curated colors feature"
+                ],
+                "bold": [
+                    "Amazon SageMaker",
+                    "AWS Lambda"
+                ],
+                "links": {
+                    "@Amazon": "https://en.wikipedia.org/wiki/Amazon_(company)/",
+                    "Amazon Paint Finder": "https://www.amazon.com/paint-finder/"
                 }
             },
             {
