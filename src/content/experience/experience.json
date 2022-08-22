@@ -27,6 +27,23 @@
             },
             {
                 "title": [
+                    "Software Engineer Intern @Meta"
+                ],
+                "date": "May - Aug 2022",
+                "text": [
+                    "Modularized and introduced text embeddings to the charity search model, which is used in 60% of fundraiser creation flows",
+                    "Improved recall at 90% precision of personal fundraiser review model by > 10% for each model class"
+                ],
+                "bold": [
+                    "60%",
+                    "> 10%"
+                ],
+                "links": {
+                    "@Meta": "https://en.wikipedia.org/wiki/Meta_Platforms"
+                }
+            },
+            {
+                "title": [
                     "Software Development Engineer Intern @Amazon"
                 ],
                 "date": "May - Aug 2021",
